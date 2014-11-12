@@ -1,0 +1,52 @@
+<h1>Hello From Rails!</h1>
+<p>
+	It is now <%= @time %>.
+</p>
+
+<p>
+	 Calculate result:
+	 <%=  1 + 2  %> <br>
+	 
+	 String connecting:
+	 <%= "cow" + "boy" %><br>
+	 
+	 In one hour: 
+	 <%= 1.hour.from_now %> <br>
+	 
+	 Fils included:
+	 <%= @files = Dir.glob('*') %>
+	 
+	 <% for file in @files %>
+	 	 file name is : <%= file %> <br>
+		 <%end %>
+		 
+		 
+	 <%= '\n danyinghango' %><br>
+	 
+	 <%= "\n shuangyinhao" %>
+	 
+	 <br>
+	 
+	 <% a = "Perl what lauague" %>
+	 <%  if a =~ /P(erl|ython)/ %>
+	 <%=  "exits" %>
+	 <% else  %>
+	 <%  "nonexits" %>
+	 <% end %>
+	 
+	 
+	 <% distance = 11
+	 distance = distance * 10 if distance < 101
+	  %>
+	  <%= distance %>
+</p>
+
+
+
+<p>
+	Say <a href="/say/goodbye">Goodbye</a> 
+</p>
+<p>
+	Time to say 
+	<%=  link_to "Goodbye", say_goodbye_path %>!
+</p>
