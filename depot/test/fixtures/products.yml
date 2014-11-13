@@ -1,13 +1,22 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
 one:
-  tille: MyString
+  title: MyString
   description: MyText
   image_url: MyString
   price: 9.99
 
 two:
-  tille: MyString
+  title: MyString
   description: MyText
   image_url: MyString
   price: 9.99
+  
+ruby:
+  title: yeqingxin
+  description: 
+    Become obsessed with our social feed of daily inspiration from 
+    the photographers you follow. Explore Flickr to easily find everything 
+    you're interested in.
+  image_url: ye.png 
+  price: 99.99
